@@ -1,0 +1,7 @@
+﻿services:
+  tradejournal:
+    image: tradejournal
+    build:
+      context: .
+      dockerfile: TradeJournal/Dockerfile
+
